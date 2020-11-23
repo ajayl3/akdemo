@@ -6,6 +6,6 @@ pipeline {
             steps {
                 git credentialId: 'github', url:'https://github.com/ajayl3/akdemo.git'
             }
-        }'
+        }
     }
 }
